@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "SOS-Imóveis",
+    "slug": "SOS-Imoveis",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android-icon-foreground.png",
+    "splash": {
+      "image": "./assets/android-icon-foreground.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#07111F"
+    },
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07111F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.gilderson.SOSImoveis"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4bb1dc04-78ac-4c5e-936f-5bd9342012b0"
+      }
+    }
+  }
+}
